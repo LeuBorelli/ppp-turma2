@@ -1,0 +1,208 @@
+2025-12-08 22:06:11,744 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-12-08 22:06:11,762 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.6.3\bin\user.properties
+2025-12-08 22:06:11,762 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.6.3\bin\system.properties
+2025-12-08 22:06:11,767 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-12-08 22:06:11,767 INFO o.a.j.JMeter: Version 5.6.3
+2025-12-08 22:06:11,767 INFO o.a.j.JMeter: java.version=17.0.12
+2025-12-08 22:06:11,767 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-12-08 22:06:11,767 INFO o.a.j.JMeter: os.name=Windows 11
+2025-12-08 22:06:11,767 INFO o.a.j.JMeter: os.arch=amd64
+2025-12-08 22:06:11,767 INFO o.a.j.JMeter: os.version=10.0
+2025-12-08 22:06:11,768 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-12-08 22:06:11,768 INFO o.a.j.JMeter: java.awt.headless=true
+2025-12-08 22:06:11,768 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-12-08 22:06:11,768 INFO o.a.j.JMeter: Available Processors =16
+2025-12-08 22:06:11,774 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-12-08 22:06:11,774 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-12-08 22:06:11,774 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.6.3
+2025-12-08 22:06:11,774 INFO o.a.j.JMeter: user.dir  =C:\Automação de Testes de Performance\ppp-turma2
+2025-12-08 22:06:11,774 INFO o.a.j.JMeter: PWD       =C:\Automação de Testes de Performance\ppp-turma2
+2025-12-08 22:06:11,774 INFO o.a.j.JMeter: IP: 192.168.3.28 Name: Meraxes FullName: Meraxes
+2025-12-08 22:06:11,790 INFO o.a.j.s.FileServer: Default base='C:\Automação de Testes de Performance\ppp-turma2'
+2025-12-08 22:06:11,792 INFO o.a.j.s.FileServer: Set new base='C:\Automação de Testes de Performance\ppp-turma2\tests\jmeter'
+2025-12-08 22:06:11,955 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-12-08 22:06:11,974 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-12-08 22:06:11,977 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-12-08 22:06:11,979 INFO o.a.j.s.SaveService: Loading file: tests\jmeter\Teste de Performance de Fluxo de Instrutores.jmx
+2025-12-08 22:06:12,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-08 22:06:12,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-08 22:06:12,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-08 22:06:12,031 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-08 22:06:12,032 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-12-08 22:06:12,032 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-12-08 22:06:12,075 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-12-08 22:06:12,083 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-12-08 22:06:12,084 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-12-08 22:06:12,084 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-12-08 22:06:12,087 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-12-08 22:06:12,087 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-12-08 22:06:12,131 INFO o.a.j.r.ClassFinder: Will scan jar C:\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-12-08 22:06:12,135 INFO o.a.j.r.ClassFinder: Will scan jar C:\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-12-08 22:06:12,197 INFO o.a.j.r.ClassFinder: Will scan jar C:\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-composite-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-12-08 22:06:12,203 INFO o.a.j.JMeter: Running test (1765242372203)
+2025-12-08 22:06:12,214 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Registrando usuários como estudantes
+2025-12-08 22:06:12,214 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Registrando usuários como estudantes.
+2025-12-08 22:06:12,214 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-12-08 22:06:12,214 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2025-12-08 22:06:12,237 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-12-08 22:06:12,237 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-12-08 22:06:12,286 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-1
+2025-12-08 22:06:12,289 INFO o.a.j.s.FileServer: Stored: C:/Automação de Testes de Performance/ppp-turma2/tests/jmeter/test-data/students.csv
+2025-12-08 22:06:12,304 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-2
+2025-12-08 22:06:12,315 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Meraxes
+2025-12-08 22:06:12,319 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-12-08 22:06:12,320 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-12-08 22:06:12,320 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-12-08 22:06:12,320 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-12-08 22:06:12,320 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-12-08 22:06:12,324 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-3
+2025-12-08 22:06:12,344 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-4
+2025-12-08 22:06:12,364 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-5
+2025-12-08 22:06:12,381 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-6
+2025-12-08 22:06:12,402 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-7
+2025-12-08 22:06:12,420 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-8
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-4
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-2
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-5
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-6
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-3
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-1
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-3
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-2
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-4
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-6
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-1
+2025-12-08 22:06:12,427 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-5
+2025-12-08 22:06:12,428 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-7
+2025-12-08 22:06:12,428 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-7
+2025-12-08 22:06:12,429 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-8
+2025-12-08 22:06:12,429 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-8
+2025-12-08 22:06:12,441 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-9
+2025-12-08 22:06:12,444 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-9
+2025-12-08 22:06:12,445 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-9
+2025-12-08 22:06:12,459 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-10
+2025-12-08 22:06:12,462 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-10
+2025-12-08 22:06:12,462 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-10
+2025-12-08 22:06:12,480 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-11
+2025-12-08 22:06:12,483 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-11
+2025-12-08 22:06:12,483 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-11
+2025-12-08 22:06:12,499 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-12
+2025-12-08 22:06:12,502 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-12
+2025-12-08 22:06:12,502 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-12
+2025-12-08 22:06:12,518 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-13
+2025-12-08 22:06:12,521 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-13
+2025-12-08 22:06:12,521 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-13
+2025-12-08 22:06:12,538 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-14
+2025-12-08 22:06:12,541 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-14
+2025-12-08 22:06:12,541 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-14
+2025-12-08 22:06:12,557 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-15
+2025-12-08 22:06:12,559 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-15
+2025-12-08 22:06:12,559 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-15
+2025-12-08 22:06:12,576 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-16
+2025-12-08 22:06:12,579 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-16
+2025-12-08 22:06:12,579 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-16
+2025-12-08 22:06:12,595 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-17
+2025-12-08 22:06:12,597 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-17
+2025-12-08 22:06:12,597 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-17
+2025-12-08 22:06:12,616 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-18
+2025-12-08 22:06:12,618 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-18
+2025-12-08 22:06:12,618 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-18
+2025-12-08 22:06:12,634 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-19
+2025-12-08 22:06:12,637 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-19
+2025-12-08 22:06:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-19
+2025-12-08 22:06:12,655 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-20
+2025-12-08 22:06:12,658 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-20
+2025-12-08 22:06:12,658 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-20
+2025-12-08 22:06:12,675 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-21
+2025-12-08 22:06:12,677 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-21
+2025-12-08 22:06:12,677 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-21
+2025-12-08 22:06:12,694 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-22
+2025-12-08 22:06:12,696 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-22
+2025-12-08 22:06:12,696 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-22
+2025-12-08 22:06:12,714 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-23
+2025-12-08 22:06:12,716 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-23
+2025-12-08 22:06:12,716 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-23
+2025-12-08 22:06:12,732 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-24
+2025-12-08 22:06:12,737 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-24
+2025-12-08 22:06:12,737 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-24
+2025-12-08 22:06:12,754 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-25
+2025-12-08 22:06:12,758 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-25
+2025-12-08 22:06:12,758 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-25
+2025-12-08 22:06:12,773 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-26
+2025-12-08 22:06:12,776 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-26
+2025-12-08 22:06:12,776 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-26
+2025-12-08 22:06:12,794 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-27
+2025-12-08 22:06:12,796 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-27
+2025-12-08 22:06:12,797 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-27
+2025-12-08 22:06:12,811 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-28
+2025-12-08 22:06:12,813 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-28
+2025-12-08 22:06:12,813 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-28
+2025-12-08 22:06:12,832 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-29
+2025-12-08 22:06:12,834 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-29
+2025-12-08 22:06:12,834 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-29
+2025-12-08 22:06:12,852 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-30
+2025-12-08 22:06:12,855 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-30
+2025-12-08 22:06:12,855 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-30
+2025-12-08 22:06:12,872 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-31
+2025-12-08 22:06:12,874 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-31
+2025-12-08 22:06:12,874 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-31
+2025-12-08 22:06:12,890 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-32
+2025-12-08 22:06:12,892 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-32
+2025-12-08 22:06:12,892 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-32
+2025-12-08 22:06:12,910 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-33
+2025-12-08 22:06:12,912 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-33
+2025-12-08 22:06:12,912 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-33
+2025-12-08 22:06:12,929 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-34
+2025-12-08 22:06:12,931 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-34
+2025-12-08 22:06:12,931 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-34
+2025-12-08 22:06:12,949 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-35
+2025-12-08 22:06:12,952 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-35
+2025-12-08 22:06:12,952 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-35
+2025-12-08 22:06:12,969 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-36
+2025-12-08 22:06:12,972 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-36
+2025-12-08 22:06:12,972 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-36
+2025-12-08 22:06:12,987 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-37
+2025-12-08 22:06:12,990 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-37
+2025-12-08 22:06:12,990 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-37
+2025-12-08 22:06:13,007 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-38
+2025-12-08 22:06:13,009 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-38
+2025-12-08 22:06:13,009 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-38
+2025-12-08 22:06:13,028 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-39
+2025-12-08 22:06:13,030 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-39
+2025-12-08 22:06:13,030 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-39
+2025-12-08 22:06:13,046 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-40
+2025-12-08 22:06:13,048 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-40
+2025-12-08 22:06:13,048 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-40
+2025-12-08 22:06:13,066 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-41
+2025-12-08 22:06:13,069 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-41
+2025-12-08 22:06:13,069 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-41
+2025-12-08 22:06:13,088 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-42
+2025-12-08 22:06:13,091 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-42
+2025-12-08 22:06:13,091 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-42
+2025-12-08 22:06:13,107 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-43
+2025-12-08 22:06:13,109 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-43
+2025-12-08 22:06:13,109 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-43
+2025-12-08 22:06:13,125 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-44
+2025-12-08 22:06:13,127 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-44
+2025-12-08 22:06:13,127 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-44
+2025-12-08 22:06:13,145 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-45
+2025-12-08 22:06:13,147 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-45
+2025-12-08 22:06:13,147 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-45
+2025-12-08 22:06:13,166 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-46
+2025-12-08 22:06:13,168 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-46
+2025-12-08 22:06:13,169 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-46
+2025-12-08 22:06:13,185 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-47
+2025-12-08 22:06:13,187 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-47
+2025-12-08 22:06:13,187 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-47
+2025-12-08 22:06:13,204 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-48
+2025-12-08 22:06:13,205 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-48
+2025-12-08 22:06:13,206 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-48
+2025-12-08 22:06:13,225 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-49
+2025-12-08 22:06:13,227 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-49
+2025-12-08 22:06:13,227 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-49
+2025-12-08 22:06:13,244 INFO o.a.j.t.JMeterThread: Thread started: Registrando usuários como estudantes 1-50
+2025-12-08 22:06:13,244 INFO o.a.j.t.JMeterThread: Thread is done: Registrando usuários como estudantes 1-50
+2025-12-08 22:06:13,244 INFO o.a.j.t.JMeterThread: Thread finished: Registrando usuários como estudantes 1-50
+2025-12-08 22:06:13,244 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-12-08 22:06:13,244 INFO o.a.j.s.FileServer: Close: C:/Automação de Testes de Performance/ppp-turma2/tests/jmeter/test-data/students.csv
+2025-12-08 22:06:13,250 INFO o.a.j.r.Summariser: summary =     50 in 00:00:01 =   47.8/s Avg:     7 Min:     1 Max:    46 Err:     0 (0.00%)
